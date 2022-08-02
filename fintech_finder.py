@@ -125,7 +125,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-# YOUR CODE HERE
+account = generate_account()
 
 ##########################################
 
@@ -141,8 +141,7 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-# YOUR CODE HERE
-
+st.sidebar.write(get_balance(w3, account.address))
 ##########################################
 
 # Create a select box to chose a FinTech Hire candidate
@@ -168,10 +167,10 @@ st.sidebar.write(hourly_rate)
 # Identify the FinTech Finder candidate's Ethereum Address
 candidate_address = candidate_database[person][1]
 
-# Write the inTech Finder candidate's Ethereum Address to the sidebar
+# Write the FinTech Finder candidate's Ethereum Address to the sidebar
 st.sidebar.write(candidate_address)
 
-# Write the Fintech Finder candidate's name to the sidebar
+# Write the Fintech Finder candidate's Total Wage in Ether to the sidebar
 
 st.sidebar.markdown("## Total Wage in Ether")
 
@@ -228,15 +227,12 @@ st.sidebar.markdown("## Total Wage in Ether")
 # variable named `wage`.
 # * Write the `wage` variable to the Streamlit sidebar by using `st.sidebar.write`.
 
-# @TODO
-# Calculate total `wage` for the candidate by multiplying the candidate’s hourly
-# rate from the candidate database (`candidate_database[person][3]`) by the
-# value of the `hours` variable
-# YOUR CODE HERE
+# Calculate total `wage` for the candidate 
+wage = hourly_rate * hours
 
-# @TODO
+
 # Write the `wage` calculation to the Streamlit sidebar
-# YOUR CODE HERE
+st.sidebar.write(wage)
 
 ##########################################
 # Step 2 - Part 2:
