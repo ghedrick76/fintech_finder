@@ -1,8 +1,8 @@
 # fintech_finder
 
-![Image of wallet contents](/images/wallet_balance.png)
+![Image of wallet contents](Images/wallet_balance.png)
 
-![Image of transaction confirmation](/images/transaction_confirmation.png)
+![Image of transaction confirmation](Images/transaction_confirmation.png)
 
 A blockchain with the capability of finding a FinTech professional and hiring them for an amount of hours that the user chooses.
 
