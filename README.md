@@ -6,6 +6,12 @@ An image depicting the wallet contents after a candidate has been selected and p
 ![Image of transaction confirmation](Images/transaction_confirmation.png)
 An image of the transaction confirmation.
 
+![Image](Images/transaction_details.png)
+An image of the details of the transaction.
+
+![Image](Images/transaction_history.png)
+This image shows the sender and receiver's address balance, index 0 and 1, respectively.
+
 A blockchain with the capability of finding a FinTech professional and hiring them for an amount of hours that the user chooses.
 
 Each professional is listed with their name, address, rating, and hourly rate.  There is a sidebar with additional information, as well as the ability to select the professional and choose the number of hours you'd like to pay them for.  You can send the transaction and see the validated transaction hash.
@@ -18,6 +24,8 @@ This picture displays the main screen, with the candidates for the finder.  It s
 
 ![Image](Images/fintech_finder_2.png)
 This image depicts the list of candidates, as well as shows the validated transaction hash.  The user has a number of selections to choose from, as well as a display of how much they will be paying for each candidate based on the number of hours chosen.
+
+
 
 ### Required Libraries:
 
